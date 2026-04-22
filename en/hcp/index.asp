@@ -91,9 +91,10 @@
             </div>
         </section>
         <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
-        <!-- #include virtual="en/incl/global/modal-disclaimer.asp"-->
+        <!-- #include virtual="en/incl/global/popup-disclaimer.asp"-->
         <!-- #include virtual="en/incl/global/footer.asp"-->
         <!-- #include virtual="en/incl/global/custom-code-footer.asp"-->
+        <script src="/js/popup-modal-hcp.js"></script>
     </body>
 
     </html>

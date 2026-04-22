@@ -21,14 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- MODIFIED LOGIC START ---
     // 3. TRIGGER: Check if the disclaimer has already been shown in this session
-    const hasSeenDisclaimer = sessionStorage.getItem('disclaimerShown');
+    const hasSeenDisclaimer = sessionStorage.getItem('hcpDisclaimerShown');
 
     if (!hasSeenDisclaimer) {
         // If they haven't seen it, show it after 2 seconds
         setTimeout(() => {
             openModal();
             // Set the flag so it doesn't trigger again during this session
-            sessionStorage.setItem('disclaimerShown', 'true');
+            sessionStorage.setItem('hcpDisclaimerShown', 'true');
         }, 2000);
     }
     // --- MODIFIED LOGIC END ---

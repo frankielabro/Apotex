@@ -7,7 +7,7 @@
         <!-- #include virtual="en/incl/global/header-top.asp"-->
         <title>Home</title>
         <!-- #include virtual="en/incl/global/header-bottom.asp"-->
-        <script src="/js/form-handler.js"></script>
+        
     </head>
 
     <body>
@@ -212,11 +212,11 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
         <!-- #include virtual="en/incl/global/footer.asp"-->
         <!-- #include virtual="en/incl/global/custom-code-footer.asp"-->
-
+        <script src="/js/form-handler.js"></script>
     </body>
 
     </html>
