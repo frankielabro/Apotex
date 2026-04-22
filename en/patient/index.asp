@@ -6,6 +6,7 @@
     <head>
         <!-- #include virtual="en/incl/global/header-top.asp"-->
         <title>Patient Page</title>
+        <meta name="description" content="Patient Page for Apo-Semaglutide">
         <!-- #include virtual="en/incl/global/header-bottom.asp"-->
     </head>
 

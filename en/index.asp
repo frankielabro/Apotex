@@ -6,6 +6,7 @@
     <head>
         <!-- #include virtual="en/incl/global/header-top.asp"-->
         <title>Home</title>
+        <meta name="description" content="Welcome to our website">
         <!-- #include virtual="en/incl/global/header-bottom.asp"-->
         
     </head>
