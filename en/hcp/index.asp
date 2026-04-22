@@ -24,7 +24,6 @@
                 </div>
             </div>
         </section>
-
         <section data-bs-version="5.1" class="features03 renderm5 cid-patient-resources cid-vgSSlJf7QO"
             id="features03-r">
             <div class="container-fluid">
@@ -90,12 +89,10 @@
                 </div>
             </div>
         </section>
-
+        <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
         <!-- #include virtual="en/incl/global/modal-disclaimer.asp"-->
         <!-- #include virtual="en/incl/global/footer.asp"-->
         <!-- #include virtual="en/incl/global/custom-code-footer.asp"-->
-        <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
-
     </body>
 
     </html>

@@ -19,9 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // 3. TRIGGER: Open the modal after 2000ms (2 seconds)
-    // You can change 2000 to any other number (e.g., 5000 for 5 seconds)
-    setTimeout(openModal, 2000);
+    // --- MODIFIED LOGIC START ---
+    // 3. TRIGGER: Check if the disclaimer has already been shown in this session
+    const hasSeenDisclaimer = sessionStorage.getItem('disclaimerShown');
+
+    if (!hasSeenDisclaimer) {
+        // If they haven't seen it, show it after 2 seconds
+        setTimeout(() => {
+            openModal();
+            // Set the flag so it doesn't trigger again during this session
+            sessionStorage.setItem('disclaimerShown', 'true');
+        }, 2000);
+    }
+    // --- MODIFIED LOGIC END ---
 
     // 4. Closing Logic (X button and "Got it" button)
     if (closeBtnX) closeBtnX.addEventListener('click', closeModal);

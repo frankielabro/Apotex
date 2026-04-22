@@ -10,5 +10,3 @@
         </div>
     </div>
 </div>
-
-<script src="/js/cookie-consent.js"></script>

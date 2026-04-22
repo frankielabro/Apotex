@@ -203,9 +203,9 @@
             </div>
         </section>
 
+        <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
         <!-- #include virtual="en/incl/global/footer.asp"-->
         <!-- #include virtual="en/incl/global/custom-code-footer.asp"-->
-        <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
 
     </body>
 
