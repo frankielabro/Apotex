@@ -1,4 +1,5 @@
 <%@ Language="VBScript" %>
+<!-- #include virtual="en/incl/global/auth_check.asp"-->
     <!DOCTYPE html>
     <html lang="en">
 

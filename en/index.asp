@@ -1,4 +1,5 @@
 <%@ Language="VBScript" %>
+<!-- #include virtual="en/incl/global/auth_check.asp"-->
     <!DOCTYPE html>
     <html lang="en">
 
@@ -44,10 +45,12 @@
                                                     class="mbr-form form-with-styler">
                                                     <div class="row">
                                                         <div hidden="hidden" data-form-alert=""
-                                                            class="alert alert-success col-12"> Thanks for filling out
+                                                            class="alert alert-success col-12"> Thanks for filling
+                                                            out
                                                             the form! </div>
                                                         <div hidden="hidden" data-form-alert-danger=""
-                                                            class="alert alert-danger col-12"> Oops...! some problem!
+                                                            class="alert alert-danger col-12"> Oops...! some
+                                                            problem!
                                                         </div>
                                                     </div>
                                                     <div class="dragArea row">
@@ -94,7 +97,8 @@
                                                                 <option value="BC">British Columbia</option>
                                                                 <option value="MB">Manitoba</option>
                                                                 <option value="NB">New Brunswick</option>
-                                                                <option value="NL">Newfoundland and Labrador</option>
+                                                                <option value="NL">Newfoundland and Labrador
+                                                                </option>
                                                                 <option value="NS">Nova Scotia</option>
                                                                 <option value="NT">Northwest Territories</option>
                                                                 <option value="NU">Nunavut</option>
@@ -127,7 +131,8 @@
                                                                         data-form-field="certification"
                                                                         class="form-check-input"
                                                                         id="certification-features03-f">
-                                                                    By checking this box, I am certifying that I am a
+                                                                    By checking this box, I am certifying that I am
+                                                                    a
                                                                     Canadian Healthcare Professional.
                                                                 </label>
                                                             </div>
@@ -147,9 +152,11 @@
                                 <div class="col-12 col-lg-6 item features-without-image">
                                     <div class="item-wrapper large-radius">
                                         <div class="card-box card-wrap">
-                                            <h2 class="item-number mbr-fonts-style display-2">Have you been prescribed
+                                            <h2 class="item-number mbr-fonts-style display-2">Have you been
+                                                prescribed
                                                 Apo-Semaglutide?&nbsp;<br></h2>
-                                            <p class="item-title mbr-fonts-style display-7">Enter the Apo-Semaglutide
+                                            <p class="item-title mbr-fonts-style display-7">Enter the
+                                                Apo-Semaglutide
                                                 DIN to access useful information, support and resources tailored to
                                                 Canadian patients.</p>
                                             <div class="label-wrapper">
@@ -159,10 +166,12 @@
                                                     class="mbr-form form-with-styler">
                                                     <div class="row">
                                                         <div hidden="hidden" data-form-alert=""
-                                                            class="alert alert-success col-12"> Thanks for filling out
+                                                            class="alert alert-success col-12"> Thanks for filling
+                                                            out
                                                             the form! </div>
                                                         <div hidden="hidden" data-form-alert-danger=""
-                                                            class="alert alert-danger col-12"> Oops...! some problem!
+                                                            class="alert alert-danger col-12"> Oops...! some
+                                                            problem!
                                                         </div>
                                                     </div>
                                                     <div class="dragArea row">
@@ -181,7 +190,8 @@
 
                                                         <div class="col-lg-12 col-md-12 col-sm-12">
                                                             <p class="mbr-fonts-style mb-1 display-4">
-                                                                <a href="#" class="text-info">Where is the DIN #?</a>
+                                                                <a href="#" class="text-info">Where is the DIN
+                                                                    #?</a>
                                                             </p>
                                                             <p class="mbr-fonts-style display-4">
                                                                 DIN = Drug Identification Number
