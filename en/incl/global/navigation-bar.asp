@@ -5,7 +5,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="/">
-                        <img src="/graphics/apotex-white.svg" alt="Apotex" style="height: 3rem;">
+                        <img src="/graphics/apotex-logo.svg" alt="Apotex" style="height: 3rem;">
                     </a>
                 </span>
             </div>
@@ -28,7 +28,7 @@
         <div
             class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center banner-container">
             <div class="banner-logo-wrapper">
-                <img src="/graphics/apo-semaglutide-logo-1-855x214.webp" alt="Pr APO-SEMAGLUTIDE INJECTION"
+                <img src="/graphics/apo-semaglutide-logo.webp" alt="Pr APO-SEMAGLUTIDE INJECTION"
                     class="banner-img-logo">
             </div>
             <div class="banner-text-wrapper">
@@ -37,7 +37,7 @@
                 </span>
             </div>
             <div class="banner-badge-wrapper">
-                <img src="/graphics/canada-badge-68x52.webp" alt="Canada Symbol" class="banner-img-badge">
+                <img src="/graphics/canada-badge.webp" alt="Canada Symbol" class="banner-img-badge">
             </div>
         </div>
     </div>

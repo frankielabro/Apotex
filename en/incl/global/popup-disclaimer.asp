@@ -3,7 +3,7 @@
 
     <div class="modal-content">
         <span id="closeModal" class="close-button">×</span>
-        <h2>Disclaimer</h2>
+        <h2 id="modalTitle">Disclaimer</h2>
         <br>
         <p>Not a substitute for insulin. Not for use in type 1 diabetes
             mellitus or for the treatment of diabetic ketoacidosis. Not

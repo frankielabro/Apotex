@@ -3,17 +3,19 @@
 <script src="/js/smooth-scroll.js"></script>
 <script src="/js/index.js"></script>
 <script src="/js/script.js"></script>
+
 <script>
     // Cookie Consent Management
     (function () {
         const COOKIE_NAME = 'cookie-consent';
-        const COOKIE_EXPIRY_DAYS = 7;
+        const COOKIE_EXPIRY_DAYS = 365;
 
         function setCookieConsent(accepted) {
             Cookies.set(COOKIE_NAME, accepted ? 'accepted' : 'rejected', {
                 expires: COOKIE_EXPIRY_DAYS,
                 path: '/',
-                sameSite: 'Lax'
+                secure: true,
+                sameSite: 'strict'
             });
             document.getElementById('cookie-consent').style.display = 'none';
 
