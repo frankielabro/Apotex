@@ -4,7 +4,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="/en/hcp/index.asp">
-                        <img src="/graphics/Apo-semaglutide-logo-white.webp" alt="Apo-Semaglutide Injection" style="height: 1.5rem;">
+                        <img src="/graphics/Apo-semaglutide-logo-white.webp" alt="Apo-Semaglutide Injection">
                     </a>
                 </span>
             </div>

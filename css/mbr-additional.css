@@ -208,8 +208,8 @@ font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
 /* --- Primary (blue) --- */
 .btn-primary,
 .btn-primary:active {
-  background-color: #6592e6 !important;
-  border-color: #6592e6 !important;
+  background-color: #0033a0 !important;
+  border-color: #0033a0 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
  }
@@ -218,8 +218,8 @@ font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #2260d2 !important;
-  border-color: #2260d2 !important;
+  background-color: #073eb4 !important;
+  border-color: #073eb4 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-primary.disabled,
@@ -602,7 +602,7 @@ font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
 .bg-danger    { background-color: #ff9966 !important; }
 
 /* Text colour helpers */
-.text-primary   { color: #6592e6 !important; }
+.text-primary   { color: #001F61 !important; }
 .text-secondary { color: #ff6666 !important; }
 .text-success   { color: #40b0bf !important; }
 .text-info      { color: #001f61 !important; }
@@ -891,7 +891,7 @@ section.lazy-placeholder:after {
   padding: 0 2rem;
   max-width: 1756px;
 }
-.cid-vgTk3U9Y5Q .container-fluid, .cid-vgpe3hLGfq .container-fluid, .cid-vhIU5zd1hE .container-fluid, .cid-vgpqsPYMyn .container-fluid {
+.cid-vgTk3U9Y5Q .container-fluid, .cid-vgpe3hLGfq .container-fluid, .cid-vhIU5zd1hE .container-fluid, .cid-vgpqsPYMyn .container-fluid, .cid-resource-cards .container-fluid {
   max-width: 1756px;
 }
 .cid-sFCw1qGFAI .navbar-brand {
@@ -1189,8 +1189,9 @@ section.lazy-placeholder:after {
 .cid-vhIU5zd1hE .navbar .dropdown-item {
   padding: 0.5rem 1.8rem;
 }
-.cid-vhIU5zd1hE .navbar .navbar-logo img {
-  width: auto;
+ .cid-vhIU5zd1hE .navbar .navbar-logo img {
+    width: 400px;
+    height: auto !important;
 }
 .cid-vhIU5zd1hE .navbar .navbar-collapse {
   justify-content: flex-end;
@@ -1261,7 +1262,8 @@ section.lazy-placeholder:after {
     top: 40%;
   }
   .cid-vhIU5zd1hE .navbar .navbar-logo img {
-    height: 4rem !important;
+    width: 400px;
+    height: auto !important;
   }
   .cid-vhIU5zd1hE .navbar ul.navbar-nav li {
     margin: auto;
@@ -1438,16 +1440,10 @@ section.lazy-placeholder:after {
   }
 }
 
-@media (max-width: 605px) {
-
-.cid-vhIU5zd1hE .mobile-lang-switcher {
-  margin-left:auto;
-}
-
+@media (max-width: 740px) {
 .cid-vhIU5zd1hE .navbar-toggler{
   margin-left: auto;
 }
-
 .cid-vhIU5zd1hE .navbar{
   padding-bottom: 25px;
 }
@@ -1748,9 +1744,13 @@ section.lazy-placeholder:after {
    ----------------------------------------------------------------------------- */
 
 .cid-vgTk3U9Y5Q {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
+}
+
+#features03-r.cid-vgTk3U9Y5Q{
+  background-color: #F8F9FA;
 }
 
 .cid-vgTk3U9Y5Q .indications-block { text-align: center; margin-bottom: 40px; padding: 0 16px; }
@@ -2157,3 +2157,148 @@ section.lazy-placeholder:after {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+/*START--for HCP-test*/
+
+/*----For the HERO SECTION of the HCP Page----*/
+/* Banner Section Styles */
+.apo-hero-banner {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url('../graphics/Banner-home.webp'); /* Adjust path based on your ASP folder structure */
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+/* Accent Line under the Title */
+.accent-line {
+    width: 60px;
+    height: 4px;
+    background-color: #00bcd4; /* Light blue accent from the image */
+}
+
+/* Text and Content Styling */
+.hero-content h1 {
+    color: #003366; /* Deep blue used in Apotex branding */
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Button Customization */
+.apo-hero-banner .btn-primary {
+    background-color: #0033a0; /* Standard Apotex Brand Blue */
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.apo-hero-banner .btn-primary:hover {
+    background-color: #002677;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .apo-hero-banner {
+        background-position: 70% center; /* Shifts image slightly to keep person visible on mobile */
+        text-align: left;
+    }
+}
+/*----END-For the HERO SECTION of the HCP Page----*/
+
+
+/* Custom typography */
+.text-navy {
+  color: #172a53; /* Deep navy used for titles */
+}
+
+/* Card Styling */
+.apotex-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: #ffffff;
+}
+.apotex-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Circle Placeholders */
+.circle-placeholder {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+/* Button general styles */
+.btn[class*="btn-apotex-"] {
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  color: #ffffff;
+  border: none;
+}
+.btn[class*="btn-apotex-"]:hover {
+  opacity: 0.85;
+  color: #ffffff;
+}
+.btn-icon {
+  font-size: 0.9em;
+}
+
+/* --- Color Variables & Classes --- */
+
+/* 1. Blue */
+.bg-light-blue { background-color: #e5effb; }
+.text-blue { color: #0b5ed7; }
+.btn-apotex-blue { background-color: #0b5ed7; }
+
+/* 2. Green */
+.bg-light-green { background-color: #e2f4ed; }
+.text-green { color: #1a9e75; }
+.btn-apotex-green { background-color: #1a9e75; }
+
+/* 3. Purple */
+.bg-light-purple { background-color: #f0eaf8; }
+.text-purple { color: #7d5dcb; }
+.btn-apotex-purple { background-color: #7d5dcb; }
+
+/* 4. Orange */
+.bg-light-orange { background-color: #fcebdc; }
+.text-orange { color: #f37623; }
+.btn-apotex-orange { background-color: #f37623; }
+
+/* 5. Teal */
+.bg-light-teal { background-color: #e3f4f8; }
+.text-teal { color: #1491b3; }
+.btn-apotex-teal { background-color: #1491b3; }
+
+/* 6. Dark Blue */
+.bg-light-darkblue { background-color: #e4ebf6; }
+.text-darkblue { color: #001F61; }
+.btn-apotex-darkblue { background-color: #001F61; }
+
+
+
+
+
+
+
+
+
+/*END--for HCP-test*/

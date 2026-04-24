@@ -13,11 +13,13 @@
                     <li class="mbr-text item-wrap">HCP Home</li>
                     <li class="mbr-text item-wrap">HCP Video Resources</li>
                     <li class="mbr-text item-wrap">HCP Reimbursement</li>
-                    <li class="mbr-text item-wrap">Sign up for News</li>
-                    <li class="mbr-text item-wrap">Patient Site</li>
                 </ul>
             </div>
             <div class="col-12 col-md-0 col-lg-3">
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap">Sign up for News</li>
+                    <li class="mbr-text item-wrap">Patient Site</li>
+                </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                  <div class="navbar-brand">
