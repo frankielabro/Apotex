@@ -3,8 +3,8 @@
         <div class="container-fluid">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://www.apotex.ca" target="_blank">
-                        <img src="/graphics/Apotex-logo-tag.svg" alt="Apo-Semaglutide Injection">
+                    <a href="/en/hcp/index.asp">
+                        <img src="/graphics/Apo-semaglutide-logo-white.webp" alt="Apo-Semaglutide Injection" style="height: 1.5rem;">
                     </a>
                 </span>
             </div>
@@ -21,23 +21,22 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse opacityScroll" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                    <li class="nav-item"><a class="nav-link link display-7" href="/en/hcp/reimbursement">Reimbursement</a></li>
+                    <li class="nav-item"><a class="nav-link link display-7" href="/en/hcp/videos">Videos</a></li>
+                </ul>
+                
                 <div class="navbar-buttons mbr-section-btn">
                     <div class="lang-switcher desktop-lang-switcher">
                         <a href="#" class="lang-link active">English</a><span class="lang-divider">  |  </span><a href="#" class="lang-link">Français</a>
                         <img src="/graphics/canada-badge.webp" alt="Canada Flag" class="lang-flag">
                     </div>
                     <a class="nav-link link display-7 about-us" href="/en/about-us/our-purpose">About Us</a>
+                    <a class="nav-link link display-7 exit" href="/">Exit
+                        <img src="/graphics/exit.webp" alt="exit" class="exit-icon">
+                    </a>
                 </div>
             </div>
         </div>
     </nav>
-</section>
-<section data-bs-version="5.1" class="article01 renderm5 cid-apobanner cid-vgpqsPYMyn" id="article01-i">
-                <div class="container-fluid">
-                    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center banner-container">
-                        <div class="banner-logo-wrapper">
-                            <img src="/graphics/apo-semaglutide-logo.webp" alt="Pr APO-SEMAGLUTIDE INJECTION" class="banner-img-logo">
-                        </div>
-                    </div>
-                </div>
 </section>

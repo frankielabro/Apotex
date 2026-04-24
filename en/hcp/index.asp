@@ -11,12 +11,12 @@
     </head>
 
     <body>
-        <!-- #include virtual="en/incl/global/navigation-bar.asp"-->
-        <section data-bs-version="5.1" class="header3 cid-vgSSlJ1p49" id="header3-q">
+        <!-- #include virtual="en/incl/global/navigation-bar-hcp.asp"-->
+        <section data-bs-version="5.1" class="header3 cid-vgSSlJ1p49 hcp-banner" id="header3-q">
             <div class="mbr-overlay" style="opacity: 0; background-color: rgb(255, 255, 255);"></div>
             <div class="align-center container">
                 <div class="row justify-content-end">
-                    <div class="col-12 col-lg-7">
+                    <div class="col-12 col-lg-12">
                         <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><span
                                 class="title-highlight"><strong>Apo-Semaglutide
                                 </strong></span>
@@ -26,11 +26,11 @@
                 </div>
             </div>
         </section>
-        <section data-bs-version="5.1" class="features03 renderm5 cid-patient-resources cid-vgSSlJf7QO"
+        <section data-bs-version="5.1" class="features03 renderm5 cid-patient-resources cid-vgTk3U9Y5Q"
             id="features03-r">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-lg-12">
                         <div class="indications-block">
                             <h2 class="indications-text mbr-fonts-style display-2">
                                 APO-SEMAGLUTIDE INJECTION (semaglutide injection) is indicated for the
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center items-wrapper col-lg-10">
+                <div class="row justify-content-center items-wrapper col-lg-12">
                     <div class="col-12 col-md-6 col-lg-4 item features-without-image">
                         <div class="item-wrapper large-radius">
                             <div class="card-box card-wrap">
@@ -87,15 +87,65 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="col-12 col-md-6 col-lg-4 item features-without-image">
+                        <div class="item-wrapper large-radius">
+                            <div class="card-box card-wrap">
+                                <h3 class="card-title mbr-fonts-style display-5">
+                                    Nutritional Supplementation for GLP-1 therapy
+                                </h3>
+                                <p class="card-text mbr-fonts-style display-7">
+                                    Sign up for a course on mastering GLP-1 recommendations.
+                                </p>
+                                <div class="mbr-section-btn">
+                                    <a href="#" class="btn btn-outline display-7">Register Here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item features-without-image">
+                        <div class="item-wrapper large-radius">
+                            <div class="card-box card-wrap">
+                                <h3 class="card-title mbr-fonts-style display-5">
+                                    Information (Access Reimbursement Information)
+                                </h3>
+                                <p class="card-text mbr-fonts-style display-7">
+                                    XXXXXXXXX
+                                </p>
+                                <div class="mbr-section-btn">
+                                    <a href="#" class="btn btn-outline display-7">XXXXXXXXX</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item features-without-image">
+                        <div class="item-wrapper large-radius">
+                            <div class="card-box card-wrap">
+                                <h3 class="card-title mbr-fonts-style display-5">
+                                    Stay in the Know
+                                </h3>
+                                <p class="card-text mbr-fonts-style display-7">
+                                    Sign up for News, Updates, Educational Events and more.
+                                </p>
+                                <div class="mbr-section-btn">
+                                    <a href="#" class="btn btn-outline display-7">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="support-block">
+                            <h3 class="card-title mbr-fonts-style display-5">Learn about <a href="https://www.apotex.com/ca/en/resources/patient-assistance" class="text-primary" target="_blank">Apotex and our impact in Canada's pharmaceutical sector.</a></h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- #include virtual="en/incl/global/cookie-consent-bar.asp"-->
         <!-- #include virtual="en/incl/global/popup-disclaimer.asp"-->
-        <!-- #include virtual="en/incl/global/footer.asp"-->
+        <!-- #include virtual="en/incl/global/footer-hcp.asp"-->
         <!-- #include virtual="en/incl/global/custom-code-footer.asp"-->
         <script src="/js/popup-modal-hcp.js"></script>
     </body>
-
     </html>
